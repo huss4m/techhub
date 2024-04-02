@@ -1,0 +1,373 @@
+	@import url(basext.css);
+	@import url(header.css);
+	@import url(messagext.css);
+	
+	/* Debut : Corps */
+	
+	/* Couleur des liens */
+body:before {
+position:absolute;
+top:0px;
+left:0px;
+
+}
+
+
+	a:hover, a:focus, a:hover span, a:focus span
+	{
+		color : black !important;
+		
+	}
+	
+	
+	body 
+	{
+		font-size: 0.75em;
+		font-family: Trebuchet MS;
+		width: 100%;
+		margin: auto;
+		background: #EBEBEB;
+	}
+	
+	
+	#banniere
+	{
+		height: 0px;
+		padding: 10px;
+		margin-top: 2px;
+		
+			text-align: center;
+	}
+	
+
+	#menudroite
+	{
+		padding: 10px;
+		width: 30%;
+		
+	}
+	
+	
+	
+	.intCorps
+	{
+		width: 64%;
+		padding: 8px;
+		margin-left: 3%;
+		min-height: 1000px;
+	}
+	
+	
+	#pied
+	{ 
+	 background: white;
+	 padding: 10px;
+	 width: 90%;
+	 border: grey;
+	 margin: auto;
+	}
+	
+	
+	/* Fin : Corps */
+	
+	/* Début : Menu */
+
+	
+	#menu, #menu ul
+	{
+        padding : 0;
+        margin-top : 0;
+        list-style : none;
+        line-height : 35px;
+        text-align : center;
+	}
+
+	.bandeau
+	{
+		background: #313132;
+		height: 35px;
+	}
+
+	
+	
+	#menu
+	{
+        font-weight : bold;
+        font-family : Calibri;
+        font-size : 14px;
+		margin-top: 132px;
+	}
+
+	#menu a
+	{
+        display : block;
+        padding : 0;
+       background: #2c2a2a;
+        color : #fff;
+        text-decoration : none;
+        width : 200px;
+		transition  : all 0.25s ease;
+	}
+
+	#menu li
+	{ 
+        float : left; 
+        border-right : 1px solid #fff;
+		
+	}
+
+	#menu li ul 
+	{ 
+        position: absolute;
+        width: 144px;
+        left: -999em;
+		 border-left : 1px solid #fff;
+	}
+
+
+	#menu li ul li
+	{
+        border-top : 1px solid #fff;
+	}
+
+	#menu li ul ul 
+	{
+        margin : -30px 0 0 144px;
+        border-left : 1px solid #fff;   
+	}
+
+	#menu a:hover, #menu a:hover a:focus, #menu a:hover a:hover span, #menu a:hover a:focus span
+	{
+		color: white !important;
+		background: #0A0B0B;
+		font-size: 1.05em;
+	}
+
+	#menu li:hover ul ul, #menu li.sfhover ul ul
+	{
+        left: -999em;
+	}
+
+	#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul
+	{
+        left: auto;
+        min-height: 0;
+	}
+	/* Fin : Menu */
+	
+	/* Debut : Bloc */
+	.bloc
+	{
+		width: 40%;
+	}
+	
+	.bloc4 h3 
+	{
+		font-size : 1.05em;
+		background : #2c2a2a;
+		color : #ffffff;
+		padding-left : 20px;
+		padding-top : 8px;
+		font-family : Trebuchet MS;
+		height : 22px;
+		margin : 0 auto;
+		
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	.bloc4 ul a 
+	{
+		color : #777777;
+		font : normal 1em Arial;
+		display : block;
+		padding : 1px;
+		margin-bottom: 2px;
+		text-decoration : none;
+		text-indent : 8px;
+		background : url("images/puce_forum.png") no-repeat left;
+		transition  : all 0.3s ease-in;
+	}
+	
+	
+	.bloc4 ul a:hover
+	{
+		
+		font-size: 1.05em;
+		
+		
+	}
+	.bloc4 .texte
+	{
+		 padding: 10px;
+		 
+		 font-size : 1.1em;
+		 margin-left : 4px;
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+		background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+		margin: 0 auto;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);  
+		 
+		border: 1px solid #e0e0e0;  
+	}
+
+	
+	.bloc2 h3 
+	{
+		font-size : 1.05em;
+		background : #2c2a2a;
+		color : #ffffff;
+		padding-left : 20px;
+		padding-top : 8px;
+		font-family : Trebuchet MS;
+		height : 22px;
+		margin : 0 auto;
+	}
+	
+	
+	.bloc2 .texte 
+	{
+		padding: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size : 1em;
+		margin-left : 4px;
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+		background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+		margin: 0 auto;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);  
+		
+		border: 1px solid #e0e0e0;  
+	}
+	
+	.bloc4 li 
+	{
+		display: inline;
+	}
+	
+	.bloc5
+	{
+		float: left;
+		margin-left: 1%;
+		width: 32%;
+	}
+	
+	.bloc5 h3
+	{
+		font-size: 1.05em;
+		background: #2c2a2a;
+		color: #FFFFFF;
+		padding-left: 20px;
+		padding-top: 7px;
+		font-family: Trebuchet MS;
+		height: 23px;
+	}
+
+	.bloc5 .texte
+	{
+		margin-top: -13px;
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+		background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+		padding: 4px;
+		border: 1px solid grey;
+	}
+	
+	/* Fin : Bloc */
+	
+	
+ /* Debut : Sondage */
+
+
+#resultat, #form, #notification
+{
+    width: 75%;
+	margin: auto; 
+}
+
+#form
+{
+    padding-top: 10px;
+	word-wrip: break-word;
+}
+
+#form input, #form label
+{
+    margin: 0px;
+	padding: 0px;
+	display: inline;
+	float: none;
+}
+
+#form .input
+{
+    display: inline-block;
+	margin-top: 5px;
+	margin-left: 40px;
+}
+
+#resultat
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+}
+
+#resultat td, #resultat th
+{
+    border: 1px solid black;
+}
+
+#resultat .choix
+{
+    text-align: left;
+	padding-left: 10px;
+}
+
+#notification
+{
+	background: #e88c8c;
+	border: 1px solid #ba6060;
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Fin : Sondage */	
+	
+
+/* Debut: Forums */
+#titre {
+padding: 6px;
+border: 1px solid black;
+border-radius: 4px;
+width: 150%;
+font-family: Trebuchet MS;
+}
+
+#message {
+padding: 8px;
+border: 1px solid black;
+border-radius: 4px;
+width: 958px;
+font-family: Trebuchet MS;
+}

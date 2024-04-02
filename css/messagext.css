@@ -1,0 +1,169 @@
+
+	.message .table 
+	{
+		display: table;
+		width:100%;
+		margin-bottom: 10px;
+	}
+
+	.message .tr 
+	{
+		display:table-row;
+		width: 100%;
+	}
+
+	.message .msg2, .message .msg3
+	{
+		display:table-row;
+		width: 100%;
+	}
+	
+	.message .msg2
+	{
+		width: 100%;
+	}
+	
+	.message .msg1 .td.gauche 
+	{
+		display: table-cell;
+		padding: 4px;
+		vertical-align: center;
+		width: 120px;
+		background-color: #EFF4FC;
+		border: solid 1px #C0D7ED;
+		text-align: center;
+	}
+
+	.message .msg1 .td.droite
+	{
+		display: table-cell;
+		padding: 3px;
+		vertical-align: center;
+		width: 100%;
+		background-color: #EFF4FC;
+		border: solid 1px #C0D7ED;
+		border-left: none;
+		
+	}
+
+	.message .msg2 .td.gauche
+	{
+		display: table-cell;
+		padding: 4px;
+		vertical-align: center;
+		background-color: #F9F9F9;
+		max-width: 10%;
+		border: solid 1px #D1D1D1;
+		text-align: center;
+	}
+
+	.message .msg2 .td.droite
+	{
+		display: table-cell;
+		padding: 3px;
+		width: 100%;
+		vertical-align: center;
+		background-color: #F9F9F9;
+		border: solid 1px #D1D1D1;
+		border-left: none;
+	}
+	
+	.message .msg3 .td.gauche 
+	{
+		display: table-cell;
+		padding: 4px;
+		vertical-align: center;
+		background-color: #abb9d9;
+		color: white;
+		border: solid 1px #FFFFFF;
+		text-align: center;
+	}
+
+	.message .msg3 .td.droite
+	{
+		display: table-cell;
+		padding: 3px;
+		vertical-align: center;
+		background-color: #abb9d9;
+		color: white;
+		border: solid 1px #FFFFFF;
+		border-left: none;
+	}
+
+	.message .gauche .pseudo
+	{
+		font: bold 12px Arial;
+		width: 100px;
+		padding: 8px;
+	}
+
+	.message .gauche .img img
+	{
+		max-width: 100px;
+		max-height: 100px;
+	}
+
+	.message .gauche .nbPost
+	{
+		font: bold 11px Arial;
+		padding: 8px;
+	}
+
+	.message .droite .post
+	{
+		clear: both;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-bottom:8px;
+		font: normal 12px Arial;
+	}
+	.message .droite .post a { font: normal 12px Arial; }
+
+	.message .droite .date
+	{
+		font: bold 80% Arial;
+		margin-left: 10px;
+		padding: 2px;
+		margin-top: 6px;
+		margin-bottom: 10px;
+	}
+	
+	.message .droite .date span
+	{
+		color:#F60;
+	}
+	
+	.message { position: relative; }
+	.message .droite .lienPermanent a
+	{
+		color: #777777;
+		font: normal 10px Arial;
+		float: right; 
+		margin-bottom: 5px;
+		position: absolute;
+		bottom: 15px;
+		right: 6px;
+	}
+
+	.message .droite .lienPermanent a:hover
+	{
+		color: #ff5500;
+		font-size: 10px;
+	}
+
+
+	.message .droite .fonctions
+	{
+		margin-top: 6px;
+		margin-bottom: 10px;
+	}
+
+	img 
+	{
+		border: none;
+	}
+
+	table 
+	{
+		font-size: 12px;
+	}
